@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAEB - Sistema de Avaliação da Educação Básica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao site do SAEB</h1>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <main>
+        <section id="sobre">
+            <h2>Sobre o SAEB</h2>
+            <p>O Sistema de Avaliação da Educação Básica (SAEB) é uma ferramenta essencial para medir a qualidade da educação no Brasil.</p>
+            <img src="https://via.placeholder.com/600x300" alt="Representação visual do SAEB em ação">
+        </section>
+        <section id="galeria">
+            <h2>Galeria de Imagens</h2>
+            <div class="gallery">
+                <img src="https://via.placeholder.com/200" alt="Estudantes participando de avaliações">
+                <img src="https://via.placeholder.com/200" alt="Gráfico mostrando resultados do SAEB">
+                <img src="https://via.placeholder.com/200" alt="Reunião de professores discutindo melhorias educacionais">
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required aria-label="Digite seu nome">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Seu email" required aria-label="Digite seu email">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Sua mensagem" required aria-label="Digite sua mensagem"></textarea>
+                <button type="button" id="submitButton">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 - Ministério da Educação</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
